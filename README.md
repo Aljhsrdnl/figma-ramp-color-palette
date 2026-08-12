@@ -8,16 +8,16 @@ swatches stay bound to those variables.
 > Community one, so it's installed by importing a manifest — something the
 > browser version cannot do.
 
-![The plugin panel](assets/panel.png)
+![The plugin panel](https://raw.githubusercontent.com/Aljhsrdnl/figma-ramp-color-palette/main/assets/panel.png)
 
 ## Install
 
 1. Download **[ramp-color-palette.zip](https://github.com/Aljhsrdnl/figma-ramp-color-palette/releases/latest/download/ramp-color-palette.zip)** and unzip it. You'll get a `ramp-color-palette` folder.
 2. Open the Figma desktop app, in any design file you can edit.
-3. **Plugins → Development → Import plugin from manifest…**
+3. **Right-click anywhere on the canvas → Plugins → Development → Import plugin from manifest…**
 4. Select `manifest.json` inside that folder.
 
-It now lives under **Plugins → Development → Ramp Color Palette**.
+It now lives in that same **Development** submenu, as **Ramp Color Palette**.
 
 ## Use
 
@@ -37,7 +37,7 @@ Re-running is safe. Variables are matched by name inside the collection and
 updated in place, and a sheet you have already drawn is replaced where it
 stands rather than stacked on top of.
 
-![A generated swatch sheet](assets/sheet.png)
+![A generated swatch sheet](https://raw.githubusercontent.com/Aljhsrdnl/figma-ramp-color-palette/main/assets/sheet.png)
 
 ## How the ramp is derived
 
